@@ -4,7 +4,7 @@ pipeline{
     environment {
         ARM_CLIENT_ID = credentials('ARM_CLIENT_ID')
         ARM_CLIENT_SECRET = credentials('ARM_CLIENT_SECRET')
-        ARM_TENET_ID = credentials('ARM_TENET_ID')
+        ARM_TENANT_ID = credentials('ARM_TENET_ID')
         ARM_SUBSCRIPTION_ID = credentials('ARM_SUBSCRIPTION_ID')
     }
 
